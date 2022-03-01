@@ -1,7 +1,7 @@
 # dookbook-weekly
 
 <div align="center">
-  <img src="https://github.com/dookbook/dookbook-weekly/blob/c89fcec9093fbf3d2b7238fe62afda56facf2937/img/dookbook.png" alt="Dookbook Logo" width="200" height="200" title="Dookbook Logo">
+  <img src="https://dookbook.info/dj-static/dookbook/img/logo-tail.svg" alt="Dookbook Logo" width="200" height="200" title="Dookbook Logo">
 </div>
 
 Dookbook Weekly. Share code snippets, code examples or programming tricks weekly.
