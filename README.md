@@ -34,12 +34,12 @@ Dookbook® = Developers' Cookbook，开发者的日常编程菜谱。
 
 ## Contact Me
 
-Home: <https://dookbook.info/>
-GitHub: <https://github.com/dookbook/>
+- Home: <https://dookbook.info/>
+- GitHub: <https://github.com/dookbook/>
 
 ## 如何联系
 
-主页: <https://dookbook.info/>
-GitHub: <https://github.com/dookbook/>
-码云: <https://gitee.com/dookbook/>
-公众号: **Dookbook**
+- 主页: <https://dookbook.info/>
+- GitHub: <https://github.com/dookbook/>
+- 码云: <https://gitee.com/dookbook/>
+- 公众号: **Dookbook**
