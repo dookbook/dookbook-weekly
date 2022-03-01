@@ -8,8 +8,7 @@ Since the initial description of Markdown contained ambiguities and unanswered q
 implementations that appeared over the years have subtle differences and many come with syntax
 extensions.
 
-!!! info "Tips"
-    The filename extension of the documents written by Markdown are `.md` or `.markdown`.
+The filename extension of the documents written by Markdown are `.md` or `.markdown`.
 
 ## Standardization
 
@@ -226,8 +225,7 @@ HTML Output:
 
 ### Inserted Text
 
-!!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
+This is the *Dookbook Markdown* syntax.
 
 Demo:
 
@@ -247,8 +245,7 @@ HTML Output:
 
 ### Combined Emphasis Text
 
-!!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
+This is the *Dookbook Markdown* syntax.
 
 Demo:
 
@@ -322,10 +319,8 @@ HTML Output:
 
 This is the *standard Markdown* syntax. Using backticks (`` ` ``).
 
-!!! error "Markdown Lint"
-    Spaces inside code span elements are not allowed:
-    `` ` some text ` ``, `` `some text ` ``, `` ` some text` ``.
-    To fix this, remove the spaces inside the code span markers: `` `some text` ``.
+"Markdown Lint Error": Spaces inside code span elements are not allowed: `` ` some text ` ``, `` `some text ` ``, `` ` some text` ``.
+To fix this, remove the spaces inside the code span markers: `` `some text` ``.
 
 Demo:
 
@@ -345,8 +340,7 @@ HTML Output:
 
 ### Embedded Backtick (`` ` ``)
 
-!!! error "Backslash (`\`) Not Working"
-    Backslash (`\`) is not working when handling embedded backtick (`` ` ``).
+Backslash (`\`) is not working when handling embedded backtick (`` ` ``).
 
 Demo:
 
@@ -395,8 +389,7 @@ HTML Output:
 
 ### Raw Table
 
-!!! info "Standard Markdown"
-    This is the *standard Markdown* syntax.
+This is the *standard Markdown* syntax.
 
 Demo:
 
@@ -447,8 +440,7 @@ HTML Output:
 
 ### Column Alignment
 
-!!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
+This is the *Dookbook Markdown* syntax.
 
 Demo:
 
@@ -496,8 +488,7 @@ HTML Output:
 
 ## Abbreviations
 
-!!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
+This is the *Dookbook Markdown* syntax.
 
 Demo:
 
@@ -526,8 +517,7 @@ is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 
 ## Code Block
 
-!!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax. Using backtick (`` ``` ``)
+This is the *Dookbook Markdown* syntax. Using backtick (`` ``` ``)
 
 Demo:
 
@@ -553,10 +543,7 @@ print ('Hello world')
 </code></pre>
 ```
 
-!!! warn "Dookbook Markdown"
-    *Dookbook Markdown* supports for code syntax highlight for 9
-    languages: `HTML`/`XML`, `CSS`, `JavaScript`, `Python`, `Markdown`,
-    `Bash`, `INI`/`TOML`.
+*Dookbook Markdown* supports for code syntax highlight for 9 languages: `HTML`/`XML`, `CSS`, `JavaScript`, `Python`, `Markdown`, `Bash`, `INI`/`TOML`.
 
 ### HTML
 
@@ -608,8 +595,7 @@ body, .usertext {
 
 ### JavaScript
 
-!!! warn "Dookbook Markdown"
-    *Dookbook Markdown* supports for **ES6+**.
+*Dookbook Markdown* supports for **ES6+**.
 
 ```javascript
 function $initHighlight(block, cls) {
@@ -734,8 +720,7 @@ Content-Length: 137
 
 ## Attribute List Syntax
 
-!!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
+This is the *Dookbook Markdown* syntax.
 
 Markdown Input:
 
@@ -755,8 +740,7 @@ HTML Output:
 
 ## Footnote Syntax
 
-!!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
+This is the *Dookbook Markdown* syntax.
 
 Demo:
 
@@ -796,19 +780,7 @@ HTML Output:
 
 ## Admonition Syntax
 
-!!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
-
-Demo:
-
-!!! info
-    You should note that the title will be automatically capitalized.
-
-!!! warn "Don't try this at home"
-    You should note that the title will be automatically capitalized.
-
-!!! error ""
-    This is a admonition box without a title.
+This is the *Dookbook Markdown* syntax.
 
 Markdown Input:
 
@@ -842,8 +814,7 @@ HTML Output:
 
 ## Superscript
 
-!!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
+This is the *Dookbook Markdown* syntax.
 
 Demo:
 
@@ -863,8 +834,7 @@ HTML Output:
 
 ## Subscript
 
-!!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
+This is the *Dookbook Markdown* syntax.
 
 Demo:
 
@@ -884,8 +854,7 @@ HTML Output:
 
 ## Meta Data
 
-!!! warn "Dookbook Markdown"
-    This is the *Dookbook Markdown* syntax.
+This is the *Dookbook Markdown* syntax.
 
 ```markdown
 LANGUAGE: en
@@ -898,11 +867,9 @@ body text here
 
 ## Task List
 
-!!! warn "GitHub Flavored Markdown"
-    This is the *GitHub Flavored Markdown* syntax.
+This is the *GitHub Flavored Markdown* syntax.
 
-!!! error "Unsupported Syntax"
-    *Dookbook Markdown* does **NOT** support for this syntax.
+*Dookbook Markdown* does **NOT** support for this syntax.
 
 Demo:
 

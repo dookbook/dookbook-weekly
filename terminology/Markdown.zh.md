@@ -7,8 +7,7 @@
 由于 Markdown 的最初描述包含歧义和未回答的问题，因此多年来出现的实现有细微的差异，
 许多实现都带有语法扩展。
 
-!!! info "提示"
-    Markdown 编写的文档的文件拓展名为`.md`或`.markdown`。
+Markdown 编写的文档的文件拓展名为`.md`或`.markdown`。
 
 ## 标准化
 
@@ -154,8 +153,7 @@ HTML输出：
 
 ### 强调文本
 
-!!! warn
-    双下划线`__`不支持中文!
+双下划线`__`不支持中文!
 
 演示示例：
 
@@ -223,8 +221,7 @@ HTML输出：
 
 ### 插入文本
 
-!!! warn "Dookbook Markdown"
-    此为*Dookbook Markdown*语法。
+此为 *Dookbook Markdown* 语法。
 
 演示示例：
 
@@ -244,8 +241,7 @@ HTML输出：
 
 ### 混合文本
 
-!!! warn "Dookbook Markdown"
-    此为*Dookbook Markdown*语法。
+此为 *Dookbook Markdown* 语法。
 
 演示示例：
 
@@ -317,12 +313,9 @@ HTML输出：
 
 ## 行内代码语法
 
-此为*标准Markdown*语法。使用反引号(`` ` ``)。
+此为*标准 Markdown*语法。使用反引号(`` ` ``)。
 
-!!! error "Markdown Lint"
-    不允许代码块的前后包含空格，像：
-    `` ` some text ` ``, `` `some text ` ``, `` ` some text` ``。
-    正确的写法是，移除前后空格：`` `some text` ``。
+*Markdown Lint Error*: 不允许代码块的前后包含空格，像：`` ` some text ` ``, `` `some text ` ``, `` ` some text` ``。正确的写法是，移除前后空格：`` `some text` ``。
 
 演示示例：
 
@@ -342,8 +335,7 @@ HTML输出：
 
 ### 嵌套反引号 (`` ` ``)
 
-!!! error "反斜线(`\`)转义失效"
-    反斜线(`\`)转义在嵌套的反引号(`` ` ``)这里失效。
+*反斜线(`\`)转义失效*: 反斜线(`\`)转义在嵌套的反引号(`` ` ``)这里失效。
 
 Demo:
 
@@ -391,9 +383,6 @@ HTML输出：
 ## 表格语法
 
 ### 原始表格
-
-!!! info "标准Markdown"
-    此为*标准Markdown*语法。
 
 演示示例：
 
@@ -443,8 +432,7 @@ HTML输出：
 
 ### 列对齐
 
-!!! warn "Dookbook Markdown"
-    此为*Dookbook Markdown*语法。
+此为 *Dookbook Markdown* 语法。
 
 演示示例：
 
@@ -492,8 +480,7 @@ HTML输出：
 
 ## 缩写语法
 
-!!! warn "Dookbook Markdown"
-    此为*Dookbook Markdown*语法。
+此为 *Dookbook Markdown* 语法。
 
 演示示例：
 
@@ -522,8 +509,7 @@ is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 
 ## 代码段语法
 
-!!! warn "Dookbook Markdown"
-    此为*Dookbook Markdown*语法。使用三个反引号(`` ``` ``)
+此为*Dookbook Markdown*语法。使用三个反引号(`` ``` ``)
 
 演示示例：
 
@@ -549,10 +535,7 @@ print ('Hello world')
 </code></pre>
 ```
 
-!!! warn "Dookbook Markdown"
-    *Dookbook Markdown*支持9种语言代码语法高亮：
-    `HTML`/`XML`, `CSS`, `JavaScript`, `Python`, `Markdown`,
-    `Bash`, `INI`/`TOML`。
+*Dookbook Markdown*支持9种语言代码语法高亮：`HTML`/`XML`, `CSS`, `JavaScript`, `Python`, `Markdown`, `Bash`, `INI`/`TOML`。
 
 ### HTML
 
@@ -604,8 +587,7 @@ body, .usertext {
 
 ### JavaScript
 
-!!! warn "Dookbook Markdown"
-    *Dookbook Markdown*支持**ES6+**.
+*Dookbook Markdown*支持**ES6+**.
 
 ```javascript
 function $initHighlight(block, cls) {
@@ -724,8 +706,7 @@ POST /api/hello/?q=2
 
 ## 属性列表语法
 
-!!! warn "Dookbook Markdown"
-    此为*Dookbook Markdown*语法。
+此为 *Dookbook Markdown* 语法。
 
 Markdown输入：
 
@@ -745,8 +726,7 @@ HTML输出：
 
 ## 脚注语法
 
-!!! warn "Dookbook Markdown"
-    此为*Dookbook Markdown*语法。
+此为 *Dookbook Markdown* 语法。
 
 演示示例：
 
@@ -786,19 +766,7 @@ HTML输出：
 
 ## 警示语法
 
-!!! warn "Dookbook Markdown"
-    此为*Dookbook Markdown*语法。
-
-演示示例：
-
-!!! info
-    You should note that the title will be automatically capitalized.
-
-!!! warn "Don't try this at home"
-    You should note that the title will be automatically capitalized.
-
-!!! error ""
-    This is a admonition box without a title.
+此为 *Dookbook Markdown* 语法。
 
 Markdown输入：
 
@@ -832,8 +800,7 @@ HTML输出：
 
 ## 上标语法
 
-!!! warn "Dookbook Markdown"
-    此为*Dookbook Markdown*语法。
+此为 *Dookbook Markdown* 语法。
 
 演示示例：
 
@@ -853,8 +820,7 @@ HTML输出：
 
 ## 下标语法
 
-!!! warn "Dookbook Markdown"
-    此为*Dookbook Markdown*语法。
+此为 *Dookbook Markdown* 语法。
 
 演示示例：
 
@@ -874,8 +840,7 @@ HTML输出：
 
 ## 元数据语法
 
-!!! warn "Dookbook Markdown"
-    此为*Dookbook Markdown*语法。
+此为 *Dookbook Markdown* 语法。
 
 ```markdown
 LANGUAGE: zh-Hans
@@ -888,11 +853,9 @@ body text here
 
 ## 任务清单语法
 
-!!! warn "GitHub Flavored Markdown"
-    此为*GitHub Flavored Markdown*语法。
+此为 *GitHub Flavored Markdown* 语法。
 
-!!! error "语法不支持"
-    *Dookbook Markdown*暂时不支持该语法。
+*Dookbook Markdown* 暂时不支持该语法。
 
 演示示例：
 
