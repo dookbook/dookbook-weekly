@@ -42,6 +42,7 @@ Dookbook® = Developers' Cookbook，开发者的日常编程菜谱。
 
 - Home: <https://dookbook.info/>
 - GitHub: <https://github.com/dookbook/>
+- Email: master@dookbook.info
 
 ## 如何联系
 
@@ -49,3 +50,4 @@ Dookbook® = Developers' Cookbook，开发者的日常编程菜谱。
 - GitHub: <https://github.com/dookbook/>
 - 码云: <https://gitee.com/dookbook/>
 - 公众号: **Dookbook**
+- 邮箱：master@dookbook.info
