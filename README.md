@@ -22,6 +22,8 @@ Dookbook Weekly. Share code snippets, code examples or programming tricks weekly
 
 收益规则详情见 <https://dookbook.info/about/>
 
+![彩色水平线](https://dookbook.info/color-hr.png)
+
 ## About Dookbook
 
 Dookbook®, **D**evelopers' C**ookbook**.
@@ -37,6 +39,8 @@ Dookbook® = Developers' Cookbook，开发者的日常编程菜谱。
 **Dookbook®** (开发者的日常编程菜谱)，旨是为开发人员提供开箱即用：Ctrl+C/Ctrl+V（复制粘贴）和方便检索查询的新一代知识引擎。 其内容包含实用代码示例、编程技巧和解决方案。例如：Python 标准库常用模块的用法示例代码及编程技巧等。
 
 更多细节，请查看 <https://dookbook.info/>
+
+![彩色水平线](https://dookbook.info/color-hr.png)
 
 ## Contact Me
 
