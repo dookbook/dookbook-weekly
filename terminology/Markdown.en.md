@@ -785,10 +785,16 @@ This is the *Dookbook Markdown* syntax.
 Markdown Input:
 
 ```markdown
-!!! info
+!!! info "Note"
+    This is a admonition box with **info** level.
     You should note that the title will be automatically capitalized.
 
 !!! warn "Don't try this at home"
+    This is a admonition box with **warn** level.
+    You should note that the title will be automatically capitalized.
+
+!!! error "Error Title"
+    This is a admonition box with **error** level.
     You should note that the title will be automatically capitalized.
 
 !!! error ""
@@ -800,16 +806,25 @@ HTML Output:
 ```html
 <div class="admonition info">
   <p class="admonition-title">Note</p>
+  <p>This is a admonition box with <strong>info</strong> level.</p>
   <p>You should note that the title will be automatically capitalized.</p>
 </div>
 
 <div class="admonition warn">
   <p class="admonition-title">Don't try this at home</p>
+  <p>This is a admonition box with <strong>warn</strong> level.</p>
   <p>You should note that the title will be automatically capitalized.</p>
 </div>
 
 <div class="admonition error">
-<p>This is a admonition box without a title.</p>
+  <p class="admonition-title">Error Title</p>
+  <p>This is a admonition box with <strong>error</strong> level.</p>
+  <p>You should note that the title will be automatically capitalized.</p>
+</div>
+
+<div class="admonition error">
+  <p>This is a admonition box without a title.</p>
+</div>
 ```
 
 ## Superscript

@@ -766,36 +766,45 @@ HTML输出：
 
 ## 警示语法
 
-此为 *Dookbook Markdown* 语法。
+此为*Dookbook Markdown*语法。
 
 Markdown输入：
 
 ```markdown
-!!! info
-    You should note that the title will be automatically capitalized.
+!!! info "标题"
+    **一般**级别的警示框。
 
-!!! warn "Don't try this at home"
-    You should note that the title will be automatically capitalized.
+!!! warn "标题"
+    **警告**级别的警示框。
+
+!!! error "标题"
+    **错误**级别的警示框。
 
 !!! error ""
-    This is a admonition box without a title.
+    不带标题的警示框。
 ```
 
 HTML输出：
 
 ```html
 <div class="admonition info">
-  <p class="admonition-title">Note</p>
-  <p>You should note that the title will be automatically capitalized.</p>
+  <p class="admonition-title">标题</p>
+  <p><strong>一般</strong>级别的警示框。</p>
 </div>
 
 <div class="admonition warn">
-  <p class="admonition-title">Don't try this at home</p>
-  <p>You should note that the title will be automatically capitalized.</p>
+  <p class="admonition-title">标题</p>
+  <p><strong>警告</strong>级别的警示框。</p>
 </div>
 
 <div class="admonition error">
-<p>This is a admonition box without a title.</p>
+  <p class="admonition-title">标题</p>
+  <p><strong>错误</strong>级别的警示框。</p>
+</div>
+
+<div class="admonition error">
+  <p>不带标题的警示框。</p>
+</div>
 ```
 
 ## 上标语法
