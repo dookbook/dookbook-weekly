@@ -13,6 +13,7 @@ Dookbook Weekly. Share code snippets, code examples or programming tricks weekly
 - Terminology
 - Python
 - Markdown
+- Git
 
 ## 程序员副业赚钱新方式：文档纠错或改进
 
