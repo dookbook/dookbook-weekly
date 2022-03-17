@@ -153,7 +153,12 @@ The basic Git workflow goes something like this:
 
 ```bash
 # Show the working tree status
-git status
+$ git status
+
+# short status
+$ git status --short
+Or
+$ git status -s
 ```
 
 ```bash
@@ -169,14 +174,11 @@ git rm --cached <file ... or directory>
 # rename or move a file or directory, or a symlink
 git mv <source> <destination>
 
-# commit staged files or directories
+# commit staged files or directories to .git repository
 git commit -m '<commit message>'
 
-# commit all modified files or directories
+# commit all tracked and modified files or directories
 git commit -a -m '<commit message>'
-
-# change committed
-git commit --amend
 ```
 
 For more details to see <https://dookbook.info/>.

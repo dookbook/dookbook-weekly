@@ -132,7 +132,12 @@ Git 完整生命周期还有两种状态 **未跟踪** (**untracked**) 和 **未
 
 ```bash
 # 查看当前状态
-git status
+$ git status
+
+# 简短状态
+$ git status --short
+Or
+$ git status -s
 ```
 
 ```bash
@@ -148,14 +153,11 @@ git rm --cached <file ... or directory>
 # 移动或重命名的文件、目录或符号链接
 git mv <source> <destination>
 
-# 提交已暂存的
+# 提交已暂存的文件或目录到版本库
 git commit -m '<commit message>'
 
-# 提交所有当前修改的
+# 提交所有当前修改的且被跟踪的
 git commit -a -m '<commit message>'
-
-# 修改已提交信息
-git commit --amend
 ```
 
 更多参见 <https://dookbook.info/>。
