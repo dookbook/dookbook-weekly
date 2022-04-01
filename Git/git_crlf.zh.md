@@ -160,5 +160,7 @@ git config core.eol crlf    # 指定行尾 CRLF
 git config core.eol native  # 行尾随本地系统（默认）
 ```
 
+更多参见 <https://dookbook.info/>。
+
 *[CR]: Carriage Return
 *[LF]: Line Feed

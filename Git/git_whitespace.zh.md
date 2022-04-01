@@ -84,7 +84,7 @@ git config apply.whitespace nowarn
 git rebase --whitespace=fix
 ```
 
+更多参见 <https://dookbook.info/>。
+
 *[EOL]: End of Line
 *[EOF]: End of File
-
-更多参见 <https://dookbook.info/>。
