@@ -1,4 +1,4 @@
-\# 装饰器 (Decorator)
+# 装饰器 (Decorator)
 
 !!! info "PEP 614 - 解除语法限制"
     Python *3.9* 以后，支持任意合法语句的装饰器。
