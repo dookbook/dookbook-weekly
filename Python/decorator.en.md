@@ -188,10 +188,12 @@ def wraps(wrapped,
     def accepts(*types):
         def wrapper(func):
             assert len(types) == func.func_code.co_argcount
+
             def new_func(*args, **kwds):
                 for (a, t) in zip(args, types):
                     assert isinstance(a, t), f'arg {a} does not match {t}'
                 return func(*args, **kwds)
+
             new_func.func_name = func.func_name
             return new_func
         return wrapper
