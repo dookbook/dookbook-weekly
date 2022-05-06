@@ -77,12 +77,16 @@ For above example, attributes like `__name__`, `__doc__` have not been passed to
 ```python
 >>> func.__module__
 '__main__'
+
 >>> func.__name__
 'wrapper'
+
 >>> func.__doc__
 'wrapper function'
+
 >>> func.__annotations__
 {}
+
 >>> func.__qualname__
 'decorator.<locals>.wrapper'
 ```

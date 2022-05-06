@@ -11,6 +11,7 @@
 ```python
 def func(arg1, arg2, ...):
     pass
+
 f = decorator(func)(arg1, arg2, ...)
 ```
 
@@ -36,6 +37,7 @@ def func(arg1, arg2, ...):
 ```python
 def func(arg1, arg2, ...):
     pass
+
 func = dec2(dec1(func))(arg1, arg2, ...)
 ```
 
@@ -77,12 +79,16 @@ run func
 ```python
 >>> func.__module__
 '__main__'
+
 >>> func.__name__
 'wrapper'
+
 >>> func.__doc__
 '包装器 (修饰器)'
+
 >>> func.__annotations__
 {}
+
 >>> func.__qualname__
 'decorator.<locals>.wrapper'
 ```
