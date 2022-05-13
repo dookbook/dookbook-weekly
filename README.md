@@ -1,4 +1,4 @@
-# dookbook-weekly
+# Dookbook Weekly
 
 <div align="center">
   <img src="https://dookbook.info/dj-static/dookbook/img/logo-tail.svg" alt="Dookbook Logo" width="200" height="200" title="Dookbook Logo">
@@ -7,6 +7,8 @@
 Dookbook Weekly. Share code snippets, code examples or programming tricks weekly.
 
 《Dookbook开发周刊》每周会精选开发实用代码示例或编程技巧。
+
+<https://dookbook.info/>
 
 ## Topics (主题)
 
