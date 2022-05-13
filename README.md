@@ -15,6 +15,8 @@ Dookbook Weekly. Share code snippets, code examples or programming tricks weekly
   - [字符串格式化](https://dookbook.info/content/6214487a4d9f1a1af7681153/)
   - [Decorator](https://dookbook.info/content/6267ff854d9f1a1af7c89e6e/)
   - [装饰器](https://dookbook.info/content/6267ff854d9f1a1af7c89e33/)
+  - [Context Decorator](https://dookbook.info/content/626a6fe74d9f1a1af7cb4a36/)
+  - [上下文装饰器](https://dookbook.info/content/626a6fe74d9f1a1af7cb4a11/)
 - Git
   - [Git Lifecyle](https://dookbook.info/content/62289f7c4d9f1a1af7817749/)
   - [Git 生命周期](https://dookbook.info/content/62289f7c4d9f1a1af7817781/)
