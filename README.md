@@ -13,24 +13,16 @@ Dookbook Weekly. Share code snippets, code examples or programming tricks weekly
 ## Topics (主题)
 
 - Python
-  - [String format specification](https://dookbook.info/content/6214487a4d9f1a1af7681157/)
-  - [字符串格式化](https://dookbook.info/content/6214487a4d9f1a1af7681153/)
-  - [Decorator](https://dookbook.info/content/6267ff854d9f1a1af7c89e6e/)
-  - [装饰器](https://dookbook.info/content/6267ff854d9f1a1af7c89e33/)
-  - [Context Decorator](https://dookbook.info/content/626a6fe74d9f1a1af7cb4a36/)
-  - [上下文装饰器](https://dookbook.info/content/626a6fe74d9f1a1af7cb4a11/)
+  - [String format specification](https://dookbook.info/content/6214487a4d9f1a1af7681157/) ([中文版：字符串格式化](https://dookbook.info/content/6214487a4d9f1a1af7681153/))
+  - [Decorator](https://dookbook.info/content/6267ff854d9f1a1af7c89e6e/) (中文版：[装饰器](https://dookbook.info/content/6267ff854d9f1a1af7c89e33/))
+  - [Context Decorator](https://dookbook.info/content/626a6fe74d9f1a1af7cb4a36/) (中文版：[上下文装饰器](https://dookbook.info/content/626a6fe74d9f1a1af7cb4a11/))
 - Git
-  - [Git Lifecyle](https://dookbook.info/content/62289f7c4d9f1a1af7817749/)
-  - [Git 生命周期](https://dookbook.info/content/62289f7c4d9f1a1af7817781/)
-  - [Line Endings Issues - CRLF](https://dookbook.info/content/6231fc5f4d9f1a1af78d911d/)
-  - [处理行尾 CRLF](https://dookbook.info/content/6231fc5f4d9f1a1af78d9121/)
-  - [Whitespace Errors](https://dookbook.info/content/62309c8a4d9f1a1af78b8af1/)
-  - [空格错误](https://dookbook.info/content/62309c8a4d9f1a1af78b8aef/)
-  - [Git Branch](https://dookbook.info/content/624ef7034d9f1a1af7aa4f6c/)
-  - [Git 分支](https://dookbook.info/content/624ef7034d9f1a1af7aa4f6e/)
+  - [Git Lifecycle](https://dookbook.info/content/62289f7c4d9f1a1af7817749/) (中文版：[Git 生命周期](https://dookbook.info/content/62289f7c4d9f1a1af7817781/))
+  - [Line Endings Issues - CRLF](https://dookbook.info/content/6231fc5f4d9f1a1af78d911d/) (中文版：[处理行尾 CRLF](https://dookbook.info/content/6231fc5f4d9f1a1af78d9121/))
+  - [Whitespace Errors](https://dookbook.info/content/62309c8a4d9f1a1af78b8af1/) (中文版：[空格错误](https://dookbook.info/content/62309c8a4d9f1a1af78b8aef/))
+  - [Git Branch](https://dookbook.info/content/624ef7034d9f1a1af7aa4f6c/) (中文版：[Git 分支](https://dookbook.info/content/624ef7034d9f1a1af7aa4f6e/))
 - Markdown
-  - [Markdown Syntax](https://dookbook.info/content/62049b264d9f1a1af723760e/)
-  - [Markdown 语法大全](https://dookbook.info/content/62049b264d9f1a1af7237608/)
+  - [Markdown Syntax](https://dookbook.info/content/62049b264d9f1a1af723760e/) (中文版：[Markdown 语法大全](https://dookbook.info/content/62049b264d9f1a1af7237608/))
 
 ## 程序员副业赚钱新方式：文档纠错或改进
 
