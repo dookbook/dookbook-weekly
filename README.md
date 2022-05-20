@@ -26,6 +26,8 @@ Dookbook Weekly. Share code snippets, code examples or programming tricks weekly
   - [处理行尾 CRLF](https://dookbook.info/content/6231fc5f4d9f1a1af78d9121/)
   - [Whitespace Errors](https://dookbook.info/content/62309c8a4d9f1a1af78b8af1/)
   - [空格错误](https://dookbook.info/content/62309c8a4d9f1a1af78b8aef/)
+  - [Git Branch](https://dookbook.info/content/624ef7034d9f1a1af7aa4f6c/)
+  - [Git 分支](https://dookbook.info/content/624ef7034d9f1a1af7aa4f6e/)
 - Markdown
   - [Markdown Syntax](https://dookbook.info/content/62049b264d9f1a1af723760e/)
   - [Markdown 语法大全](https://dookbook.info/content/62049b264d9f1a1af7237608/)
