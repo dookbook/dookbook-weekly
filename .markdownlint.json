@@ -13,12 +13,14 @@
     "no-inline-html": {
         "allowed_elements": [
             "div",
+            "br",
             "img",
             "p",
-            "span",
             "a",
-            "br",
-            "strong"
+            "span",
+            "strong",
+            "em",
+            "code"
         ]
     }
 }

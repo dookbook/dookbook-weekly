@@ -12,6 +12,10 @@
   <span>中文</span>
 </p>
 
+<p align="center">
+  <a href="https://dookbook.info"><code>https://dookbook.info</code></a>
+</p>
+
 ## 主题
 
 - Python
@@ -40,8 +44,7 @@ Dookbook® = Developers' Cookbook，开发者的日常编程菜谱。
 
 ## 联系我们
 
-- 主页: <https://dookbook.info/>
-- GitHub: <https://github.com/dookbook/>
+- GitHub: <https://github.com/dookbook/> @Dookbook
 - 码云: <https://gitee.com/dookbook/>
 - 公众号: **Dookbook**
 - 邮箱：master@dookbook.info

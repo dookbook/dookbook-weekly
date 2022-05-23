@@ -12,6 +12,10 @@
   <a href="https://github.com/dookbook/dookbook-weekly/blob/main/README.zh-Hans.md">中文</a>
 </p>
 
+<p align="center">
+  <a href="https://dookbook.info"><code>https://dookbook.info</code></a>
+</p>
+
 ## Topics
 
 - Python
@@ -41,6 +45,5 @@ offers a wealth of useful code recipes and snippets, even tips and tricks for pr
 
 ## Contact
 
-- Home Page: <https://dookbook.info/>
-- GitHub Organization: <https://github.com/dookbook/>
+- GitHub: <https://github.com/dookbook/> @Dookbook
 - Email: master@dookbook.info
