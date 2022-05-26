@@ -5,7 +5,7 @@
         "siblings_only": true
     },
     "line-length": {
-        "line_length": 180,
+        "line_length": 100,
         "heading_line_length": 80,
         "code_blocks": false,
         "tables": false
