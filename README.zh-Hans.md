@@ -1,20 +1,19 @@
 # Dookbook Weekly
 
-<div align="center">
-  <img src="https://dookbook.info/dj-static/dookbook/img/logo-tail.svg" alt="Dookbook Logo" width="200" height="200" title="Dookbook Logo">
+<section align="center">
+  <img src="https://dookbook.info/dj-static/dookbook/img/logo-tail.svg"
+    alt="Dookbook Logo" width="200" height="200" title="Dookbook Logo">
   <br><br>
   <p><strong>《Dookbook开发周刊》</strong></p>
   <p>每周会精选开发实用代码示例或编程技巧</p>
-</div>
 
-<p align="center">
-  <a href="https://github.com/dookbook/dookbook-weekly/blob/main/README.md">English</a> |
-  <span>中文</span>
-</p>
+  <p>
+    <a href="https://github.com/dookbook/dookbook-weekly/blob/main/README.md">English</a> |
+    <span>中文</span>
+  </p>
 
-<p align="center">
-  <a href="https://dookbook.info"><code>https://dookbook.info</code></a>
-</p>
+  <p><a href="https://dookbook.info"><code>https://dookbook.info</code></a></p>
+</section>
 
 ## 主题
 
@@ -40,7 +39,8 @@
 
 Dookbook® = Developers' Cookbook，开发者的日常编程菜谱。
 
-**[Dookbook®](https://dookbook.info)** (开发者的日常编程菜谱)，旨是为开发人员提供开箱即用：Ctrl+C/Ctrl+V（复制粘贴）和方便检索查询的新一代知识引擎。 其内容包含实用代码示例、编程技巧和解决方案。例如：Python 标准库常用模块的用法示例代码及编程技巧等。
+**[Dookbook®](https://dookbook.info)** (开发者的日常编程菜谱)，旨是为开发人员提供开箱即用：Ctrl+C/Ctrl+V（复制粘贴）和方便检索查询的新一代知识引擎。
+其内容包含实用代码示例、编程技巧和解决方案。例如：Python 标准库常用模块的用法示例代码及编程技巧等。
 
 ## 联系我们
 

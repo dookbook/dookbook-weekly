@@ -1,20 +1,19 @@
 # Dookbook Weekly
 
-<div align="center">
-  <img src="https://dookbook.info/dj-static/dookbook/img/logo-tail.svg" alt="Dookbook Logo" width="200" height="200" title="Dookbook Logo">
+<section align="center">
+  <img src="https://dookbook.info/dj-static/dookbook/img/logo-tail.svg"
+    alt="Dookbook Logo" width="200" height="200" title="Dookbook Logo">
   <br><br>
   <p><strong>Dookbook Weekly</strong></p>
   <p>Share code snippets, recipes, or programming tricks, updated weekly</p>
-</div>
 
-<p align="center">
-  <span>English</span> |
-  <a href="https://github.com/dookbook/dookbook-weekly/blob/main/README.zh-Hans.md">中文</a>
-</p>
+  <p>
+    <span>English</span> |
+    <a href="https://github.com/dookbook/dookbook-weekly/blob/main/README.zh-Hans.md">中文</a>
+  </p>
 
-<p align="center">
-  <a href="https://dookbook.info"><code>https://dookbook.info</code></a>
-</p>
+  <p><a href="https://dookbook.info"><code>https://dookbook.info</code></a></p>
+</section>
 
 ## Topics
 
@@ -40,7 +39,8 @@
 
 Dookbook®, **D**evelopers' C**ookbook**.
 
-**[Dookbook®](https://dookbook.info/)** (Developers' cookbook), as a new generation knowledge engine for developers,
+**[Dookbook®](https://dookbook.info/)** (Developers' cookbook),
+as a new generation knowledge engine for developers,
 offers a wealth of useful code recipes and snippets, even tips and tricks for programming.
 
 ## Contact

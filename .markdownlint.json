@@ -12,10 +12,10 @@
     },
     "no-inline-html": {
         "allowed_elements": [
-            "div",
-            "br",
-            "img",
+            "section",
             "p",
+            "img",
+            "br",
             "a",
             "span",
             "strong",
