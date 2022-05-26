@@ -4,7 +4,10 @@
   <img src="https://dookbook.info/dj-static/dookbook/img/logo-tail.svg"
     alt="Dookbook Logo" width="200" height="200" title="Dookbook Logo">
   <br><br>
-  <p><strong>《Dookbook开发周刊》</strong></p>
+  <p><a href="https://github.com/pre-commit/pre-commit">
+    <img src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white"
+      alt="pre-commit" style="max-width:100%;">
+  </a></p>
   <p>每周会精选开发实用代码示例或编程技巧</p>
 
   <p>

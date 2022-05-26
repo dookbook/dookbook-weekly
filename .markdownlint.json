@@ -12,6 +12,7 @@
     },
     "no-inline-html": {
         "allowed_elements": [
+            "h2",
             "section",
             "p",
             "img",
