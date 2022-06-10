@@ -24,6 +24,7 @@
   - [String format specification](https://dookbook.info/content/6214487a4d9f1a1af7681157/)
   - [Decorator](https://dookbook.info/content/6267ff854d9f1a1af7c89e6e/)
   - [Context Decorator](https://dookbook.info/content/626a6fe74d9f1a1af7cb4a36/)
+  - [Enumeration: `enum`](https://dookbook.info/content/62a2ae694d9f1a1af7a864f7/)
 - Git
   - [Git Lifecycle](https://dookbook.info/content/62289f7c4d9f1a1af7817749/)
   - [Line Endings Issues - CRLF](https://dookbook.info/content/6231fc5f4d9f1a1af78d911d/)

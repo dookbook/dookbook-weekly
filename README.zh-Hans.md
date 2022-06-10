@@ -24,6 +24,7 @@
   - [字符串格式化](https://dookbook.info/content/6214487a4d9f1a1af7681153/)
   - [装饰器 (Decorator)](https://dookbook.info/content/6267ff854d9f1a1af7c89e33/)
   - [上下文装饰器 (Context Decorator)](https://dookbook.info/content/626a6fe74d9f1a1af7cb4a11/)
+  - [枚举 (Enumeration): `enum`](https://dookbook.info/content/62a2ae694d9f1a1af7a86501/)
 - Git
   - [Git 生命周期](https://dookbook.info/content/62289f7c4d9f1a1af7817781/)
   - [处理行尾 CRLF](https://dookbook.info/content/6231fc5f4d9f1a1af78d9121/)
