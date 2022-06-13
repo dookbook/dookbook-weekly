@@ -126,7 +126,8 @@ Git 完整生命周期还有两种状态 **未跟踪** (**untracked**) 和 **未
 
 - 在工作区(working tree)中修改文件，放弃修改 (**`git restore`**)。
 
-- 将你想要下次提交的更改选择性地暂存 (**`git add`**, **`git rm`**, **`git mv`**, **`git restore --staged`**)，这样只会将更改的部分添加到暂存区(staging area) 。
+- 将你想要下次提交的更改选择性地暂存 (**`git add`**, **`git rm`**, **`git mv`**, **`git restore --staged`**)，
+这样只会将更改的部分添加到暂存区(staging area) 。
 
 - 提交更新 (**`git commit`**)，找到暂存区的文件，将快照永久性存储到 Git 目录(Git directory, 或 .git directory)。
 
