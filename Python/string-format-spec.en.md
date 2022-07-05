@@ -1,6 +1,7 @@
 # String Format Specification
 
-**Format specifications** are used within replacement fields contained within a format string to define how individual values are presented.
+**Format specifications** are used within replacement fields contained within a format string
+to define how individual values are presented.
 
 ## Alignment
 
@@ -66,7 +67,9 @@ ValueError: '=' alignment not allowed in string format specifier
 
 ## Integer Format
 
-**`d`** (decimal format) / **`n`** (decimal formar with current locale setting), **`b`** (binary format), **`o`** (octal format), **`x`** (hex format using lower-case letter) / **`X`** (hex format using upper-case letter):
+**`d`** (decimal format) / **`n`** (decimal formar with current locale setting),
+**`b`** (binary format), **`o`** (octal format),
+**`x`** (hex format using lower-case letter) / **`X`** (hex format using upper-case letter):
 
 ```python
 >>> i = 666666
@@ -120,7 +123,9 @@ A **thousand separator** (**`,`**) for floating point presentation types:
 
 ### Field Width and Precision
 
-Total **field width** and **precision** (the minimum total field width, including any prefixes, separators, and other formatting characters. If not specified, then the field width will be determined by the content.):
+Total **field width** and **precision** (the minimum total field width,
+including any prefixes, separators, and other formatting characters.
+If not specified, then the field width will be determined by the content.):
 
 ```python
 >>> i = 666666.666
