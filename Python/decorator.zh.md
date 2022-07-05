@@ -1,12 +1,10 @@
 # 装饰器 (Decorator)
 
-!!! info "PEP 614 - 解除语法限制"
-    Python *3.9* 以后，支持任意合法语句的装饰器。
-    之前只支持 `xx.xx.xx()` 的语法。
-
 返回值为另一个函数的函数，通常使用 *`@wrapper`* 语法形式来进行函数变换，称为**函数装饰器**或**方法装饰器**。装饰器的常见例子包括 `classmethod()` 和 `staticmethod()`。
 
-装饰器语法只是一种**语法糖**，以下两个函数定义在语义上完全等价:
+同样的概念也适用于类，叫**类装饰器**，但通常较少这样使用。
+
+## 语法糖
 
 ```python
 def func(arg1, arg2, ...):
@@ -15,13 +13,13 @@ def func(arg1, arg2, ...):
 f = decorator(func)(arg1, arg2, ...)
 ```
 
+语义上完全等价于:
+
 ```python
 @decorator
 def func(arg1, arg2, ...):
     pass
 ```
-
-同样的概念也适用于类，叫**类装饰器**，但通常较少这样使用。
 
 ## 多重装饰器
 
@@ -315,7 +313,7 @@ class A:
         pass
     ```
 
-## 推荐阅读
+## 参考资料
 
 - [PEP 318 - Decorators for Functions and Methods (函数和方法装饰器)](https://peps.python.org/pep-0318/)
 - [PEP 3129 – Class Decorators (类装饰器)](https://peps.python.org/pep-3129/)
