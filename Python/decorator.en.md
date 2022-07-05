@@ -4,10 +4,13 @@
     Since Python *3.9*, removing limitations (only `xx.xx.xx()`)
     and allowing decorators to be any valid expression.
 
-A function returning another function, usually applied as a function transformation using the *`@wrapper`* syntax, called **function decorator** or **method decorator**.
+A function returning another function, usually applied as a function transformation
+using the *`@wrapper`* syntax,
+called **function decorator** or **method decorator**.
 Common examples for decorators are `classmethod()` and `staticmethod()`.
 
-The decorator syntax is merely **syntactic sugar**, the following two function definitions are semantically equivalent:
+The decorator syntax is merely **syntactic sugar**,
+the following two function definitions are semantically equivalent:
 
 ```python
 def func(arg1, arg2, ...):
@@ -110,7 +113,7 @@ def decorator(func):
 
 @decorator
 def func(*args, **kwargs):
-    """original function"""
+    """original function."""
     print('run func')
 
 
@@ -137,7 +140,7 @@ def decorator(func=None, arg1=None, arg2=None):
 
     @wraps(func)
     def wrapper(*args, **kwargs):
-        """包装器 (修饰器)"""
+        """wrapper function."""
         print(f'run wrapper: {args}, {kwargs}')
         return func(*args, **kwargs)
 
@@ -146,7 +149,7 @@ def decorator(func=None, arg1=None, arg2=None):
 
 @decorator(1, 2)
 def func(*args, **kwargs):
-    """原函数"""
+    """original function."""
     print('run func')
 ```
 
