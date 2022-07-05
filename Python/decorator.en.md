@@ -1,16 +1,13 @@
 # Decorator
 
-!!! info "PEP 614 - Relaxing Grammar Restrictions On Decorators"
-    Since Python *3.9*, removing limitations (only `xx.xx.xx()`)
-    and allowing decorators to be any valid expression.
-
 A function returning another function, usually applied as a function transformation
 using the *`@wrapper`* syntax,
 called **function decorator** or **method decorator**.
 Common examples for decorators are `classmethod()` and `staticmethod()`.
 
-The decorator syntax is merely **syntactic sugar**,
-the following two function definitions are semantically equivalent:
+The same concept exists for classes, called **class decorator**, but is less commonly used there.
+
+## Syntactic Sugar
 
 ```python
 def func(arg1, arg2, ...):
@@ -18,13 +15,13 @@ def func(arg1, arg2, ...):
 f = decorator(func)(arg1, arg2, ...)
 ```
 
+semantically equivalent:
+
 ```python
 @decorator
 def func(arg1, arg2, ...):
     pass
 ```
-
-The same concept exists for classes, called **class decorator**, but is less commonly used there.
 
 ## Multiple Decorators
 
@@ -316,7 +313,7 @@ class A:
         pass
     ```
 
-## Recommended Readings
+## References
 
 - [PEP 318 - Decorators for Functions and Methods](https://peps.python.org/pep-0318/)
 - [PEP 3129 – Class Decorators](https://peps.python.org/pep-3129/)
