@@ -22,7 +22,8 @@
 
 - Python
   - [字符串格式化](https://dookbook.info/content/6214487a4d9f1a1af7681153/)
-  - [装饰器 (Decorator)](https://dookbook.info/content/6267ff854d9f1a1af7c89e33/)
+  - [函数装饰器 (Function Decorator)](https://dookbook.info/content/6267ff854d9f1a1af7c89e33/)
+  - [类装饰器 (Class Decorator)](https://dookbook.info/content/6267ff854d9f1a1af7c89e33/)
   - [上下文装饰器 (Context Decorator)](https://dookbook.info/content/626a6fe74d9f1a1af7cb4a11/)
   - [枚举 (Enumeration): `enum`](https://dookbook.info/content/62a2ae694d9f1a1af7a86501/)
 - Git
