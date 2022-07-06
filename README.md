@@ -22,7 +22,8 @@
 
 - Python
   - [String format specification](https://dookbook.info/content/6214487a4d9f1a1af7681157/)
-  - [Decorator](https://dookbook.info/content/6267ff854d9f1a1af7c89e6e/)
+  - [Function Decorator](https://dookbook.info/content/6267ff854d9f1a1af7c89e6e/)
+  - [Class Decorator](https://dookbook.info/content/6267ff854d9f1a1af7c89e6e/)
   - [Context Decorator](https://dookbook.info/content/626a6fe74d9f1a1af7cb4a36/)
   - [Enumeration: `enum`](https://dookbook.info/content/62a2ae694d9f1a1af7a864f7/)
 - Git
