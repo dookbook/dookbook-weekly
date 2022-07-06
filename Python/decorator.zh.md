@@ -39,115 +39,141 @@ def func(arg1, arg2, ...):
 func = dec2(dec1(func))(arg1, arg2, ...)
 ```
 
-## 装饰器实现：包装器 (Wrapper)
+## 用法：包装器 (Wrapper)
 
-### 简单实现
-
-```python
-def decorator(func):
-    def wrapper(*args, **kwargs):
-        """包装器 (修饰器)"""
-        print(f'run wrapper: {args}, {kwargs}')
-        return func(*args, **kwargs)
-
-    print('run decorator')
-    return wrapper
-
-@decorator
-def func(*args, **kwargs):
-    """原函数"""
-    print('run func')
-
-
-# 不带参数
->>> func()
-run decorator
-run wrapper: (), {}
-run func
-
-# 带参数
->>> func('arg1', 'arg2')
-run decorator
-run wrapper: ('arg1', 'arg2'), {}
-run func
-```
-
-上述实现，没有传递 `__name__`, `__doc__` 等属性：
-
-```python
->>> func.__module__
-'__main__'
-
->>> func.__name__
-'wrapper'
-
->>> func.__doc__
-'包装器 (修饰器)'
-
->>> func.__annotations__
-{}
-
->>> func.__qualname__
-'decorator.<locals>.wrapper'
-```
-
-### 完整实现
-
-通过 **`functools.wraps`** 装饰器，则可以返回原始函数的属性而非包装器 (wrapper)的：
+### 无参数
 
 ```python
 from functools import wraps
 
-def decorator(func):
-    @wraps(func)
-    def wrapper(*args, **kwargs):
-        """包装器 (修饰器)"""
-        print(f'run wrapper: {args}, {kwargs}')
-        return func(*args, **kwargs)
+def decorator(_func):
 
-    print('run decorator')
+    @wraps(_func)
+    def wrapper(*args, **kwargs):
+        """wrapper function."""
+        print(f'run wrapper: {args}, {kwargs}')
+        return _func(*args, **kwargs)
+
     return wrapper
 
 @decorator
 def func(*args, **kwargs):
-    """原函数"""
-    print('run func')
+    """original function."""
+    print(f'run func: {args}, {kwargs}')
 
 
+# Without Arguments
+>>> func()
+run wrapper: (), {}
+run func: (), {}
+
+# With Arguments
+>>> func('arg1', 'arg2')
+run wrapper: ('arg1', 'arg2'), {}
+run func: ('arg1', 'arg2'), {}
+```
+
+```python
 >>> func.__module__
-'__main__'
+'**main**'
 >>> func.__name__
 'func'
 >>> func.__doc__
-'原函数'
+'original function.'
 >>> func.__annotations__
 {}
 >>> func.__qualname__
 'func'
 ```
 
-### 装饰器参数
+没有 **`@functools.wraps`** 装饰器，原始函数的属性无法传递，而是包装器 (wrapper) 的：
+
+```python
+>>> func.__module__
+'__main__'
+>>> func.__name__
+'wrapper'
+>>> func.__doc__
+'wrapper function.'
+>>> func.__annotations__
+{}
+>>> func.__qualname__
+'decorator.<locals>.wrapper'
+```
+
+### 必需参数
+
+```python
+from functools import wraps
+
+def decorator(arg1=None, arg2=None, *_args, **_kwargs):
+
+    def _decorator(_func):
+
+        @wraps(_func)
+        def wrapper(*args, **kwargs):
+            """wrapper function."""
+            print(f'run wrapper: {arg1}, {arg2}, {_args}, {_kwargs}')
+            return _func(*args, **kwargs)
+
+        return wrapper
+
+    return _decorator
+
+@decorator(1, 2)
+def func(*args, **kwargs):
+    """original function."""
+    print(f'run func: {args}, {kwargs}')
+```
+
+### 可选参数
 
 ```python
 from functools import wraps, partial
 
-def decorator(func=None, arg1=None, arg2=None):
+def decorator(func=None, *, arg1=None, arg2=None):
     if func is None:
         return partial(decorator, arg1=arg1, arg2=arg2)
 
     @wraps(func)
     def wrapper(*args, **kwargs):
-        """包装器 (修饰器)"""
+        """wrapper function."""
         print(f'run wrapper: {args}, {kwargs}')
         return func(*args, **kwargs)
 
-    print('run decorator')
     return wrapper
 
 @decorator(1, 2)
 def func(*args, **kwargs):
-    """原函数"""
+    """original function."""
     print('run func')
+```
+
+## 用法: 作用于函数
+
+```python
+def decorator(*_args, **_kwargs):
+
+    def wrapper(_func):
+        """wrapper function."""
+        print(f'run wrapper: {_args}, {_kwargs}')
+        return _func
+
+    print(f'run decorator: {_args}, {_kwargs}')
+    return wrapper
+
+@decorator(1)
+def func(*args, **kwargs):
+    """original function."""
+    print(f'run func: {args}, {kwargs}')
+
+
+run decorator: (1,), {}
+run wrapper: (1,), {}
+>>> func()
+run func: (), {}
+>>> func(2)
+run func: (2,), {}
 ```
 
 ## `@functools.wraps` 实现细节
@@ -163,56 +189,6 @@ def wraps(wrapped,
           updated = WRAPPER_UPDATES):
     return partial(update_wrapper, wrapped=wrapped, assigned=assigned, updated=updated)
 ```
-
-## 函数装饰器示例
-
-1. 向函数或方法增加属性
-
-    ```python
-    def attrs(**kwds):
-        def wrapper(func):
-            for k in kwds:
-                setattr(func, k, kwds[k])
-            return func
-        return wrapper
-
-    @attrs(versionadded="2.2",
-           author="Guido van Rossum")
-    def method(f):
-        pass
-    ```
-
-2. 强制函数参数和返回类型
-
-    ```python
-    def accepts(*types):
-        def wrapper(func):
-            assert len(types) == func.func_code.co_argcount
-
-            def new_func(*args, **kwds):
-                for (a, t) in zip(args, types):
-                    assert isinstance(a, t), f'arg {a} does not match {t}'
-                return func(*args, **kwds)
-
-            new_func.func_name = func.func_name
-            return new_func
-        return wrapper
-
-    def returns(rtype):
-        def wrapper(func):
-            def new_func(*args, **kwds):
-                result = func(*args, **kwds)
-                assert isinstance(result, rtype), f'return value {result} does not match {rtype}'
-                return result
-            new_func.func_name = func.func_name
-            return new_func
-        return wrapper
-
-    @accepts(int, (int,float))
-    @returns((int,float))
-    def func(arg1, arg2):
-        return arg1 * arg2
-    ```
 
 ## 类装饰器
 
